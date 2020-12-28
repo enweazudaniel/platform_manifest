@@ -41,10 +41,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project name="LineageOS/android_device_xiaomi_jason.git" path="device/xiaomi/jason" remote="github"/>
-  <project name="LineageOS/android_kernel_xiaomi_sdm660.git" path="kernel/xiaomi/jason" remote="github"/>
-  <project name="enweazudaniel/vendor.git" path="vendor/xiaomi" remote="github"/>
-  <project name="enweazudaniel/vendor--common.git" path="vendor/xiaomi/sdm660-common" remote="github"/>
+  <project name="LineageOS/android_device_xiaomi_jason" path="device/xiaomi/jason" remote="github"/>
+  <project name="LineageOS/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/jason" remote="github"/>
+  <project name="enweazudaniel/vendor" path="vendor/xiaomi" remote="github"/>
+  <project name="enweazudaniel/vendor--common" path="vendor/xiaomi/sdm660-common" remote="github"/>
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
